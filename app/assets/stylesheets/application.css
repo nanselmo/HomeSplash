@@ -21,15 +21,19 @@
   color: #00CCE7;
  }
 
- body {
-  background: image-url("teton.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover; /*adds things for old browsers*/
+body {
+    background-image: url("teton.jpg");
+    background-repeat:no-repeat;
+    background-position: center center fixed;
+    -webkit-background-size: cover; /*adds things for old browsers*/
   -moz-background-size: cover; /*adds things for Mozila*/
   -o-background-size: cover;  /*adds things for Opera*/
   background-size: cover;
     padding: 0;
     margin: 0;
- }
+    
+}
+
 
 .shadowed {
   text-shadow: 2px 2px 0 #000;

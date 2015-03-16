@@ -44,3 +44,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 # formats date and time
 gem 'stamp'
 gem 'font-awesome-rails'
+gem 'awesome_print'
